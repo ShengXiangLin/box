@@ -1,0 +1,46 @@
+#intro .jumbotron{
+
+    height:70vh;
+}
+#intro h1{
+    font-size:52px;
+    font-weight:800;
+    line-height:1.5;
+}
+#intro .container{
+    margin:0;
+    top: 50%;
+    position: relative;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+#intro a{
+    background-color: rgb(194, 19, 19);
+    left: 0;
+    top: 0;
+}
+#first nav img {/*圖片格式*/
+    max-height: 68px;
+    width: auto;
+    transform: translate3d(0,0,0);
+    margin-top: -15px;
+}
+#first nav ul li {/*導覽列裡的間隔*/
+    margin-right: 25px;
+}
+#second img {/*圖片格式*/
+    width: 127px;
+    border-radius: 50%;
+}
+#second{/*將第二段往下移動*/
+    padding: 80px;
+}
+#second h2{
+    margin-bottom: 80px;
+}
+#third{/*將第三段往下移動*/
+    padding: 80px;
+}
+#third h2{
+    margin-bottom: 80px;
+}
